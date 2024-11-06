@@ -1,0 +1,100 @@
+.home {
+    margin: 0 auto;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 40px;
+    background-color: #f2f2f2;
+  }
+
+  .home .landing header{
+    margin: 20px 0;
+    padding: 0 20px;
+    display: inline-flex;
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: space-between;
+    align-items: end;
+  }
+  
+  .landing header h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Young Serif", sans-serif;
+    font-size: 2.5em;
+    line-height: 100%;
+    width: 30%;
+}
+
+.landing header p {
+    font-size: 13px;
+    line-height: 100%;
+    text-transform: capitalize;
+    text-align: right;
+}
+
+.landing header p em {
+    font-weight: 600;
+}
+
+.landing .bg {
+    height: 90vh;
+    background-image: url(../assets/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h3 {
+  font-size: 20px;
+  padding: 0 20px;
+  margin: 20px 0;
+  transition: 3s;
+  position: relative;
+  font-family: "Young Serif", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  width: 80%;
+  z-index: 10;
+  box-sizing: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(90deg, #000000, rgb(0, 0, 0), 50%, grey 0);
+  background-size: 200% 100%;
+  background-position: 100%;
+}
+
+h3:hover {
+  background-position: 0;
+  color: #000000;
+}
+
+.h3:hover::before,
+.h3.active::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+@media (max-width: 500px) {
+    .home {
+        margin-top: 0;
+    }
+    h3 {
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .home .landing header {
+        display: block;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .landing header p {
+      margin: 10px 0;
+    }
+    .landing .bg {
+      height: 70vh;
+    }
+}
