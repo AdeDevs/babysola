@@ -1,131 +1,99 @@
 .memories {
-    padding: 10px 15px;
-    font-family: "Montserrat", sans-serif;
-    box-sizing: border-box;
-    width: 100%;
+  padding: 10px 15px;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .memories h1 {
-    font-size: 2em;
-    text-transform: capitalize;
-    line-height: 100%;
-    width: 70%;
-    font-weight: 500;
+  font-size: 2em;
+  text-transform: capitalize;
+  line-height: 100%;
+  width: 70%;
+  font-weight: 500;
 }
 
 .memories h1 span {
-    color: gray;
-    font-size: 12px;
+  color: gray;
+  font-size: 12px;
 }
-
 
 .memories-box {
-    padding: 10px 0;
-    box-sizing: border-box;
-    margin: 0 auto;
+  padding: 10px 0;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.memories-box .memories-card {
+  display: inline-flex;
+  overflow: hidden;
+  overflow-x: scroll;
+  width: 100%;
+  gap: 20px;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
   }
-  
-  .memories-box .memories-card {
-    display: inline-flex;
-    overflow: hidden;
-    overflow-x: scroll;
-    width: 100%;
-    gap: 20px;
-    scrollbar-width: none;
-    &::-webkit-scrollbar {
-      display: none;
+}
+
+.img,
+.img2,
+.img3,
+.img4 {
+  height: 600px;
+  width: 400px;
+  background-image: url(../assets/ring.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img2 {
+  background-image: url(../assets/skin.jpg);
+  min-width: 500px;
+  background-position: bottom;
+  height: 350px;
+}
+.img3 {
+  background-image: url(../assets/gate.jpg);
+  width: 400px;
+}
+.img4 {
+  background-image: url(../assets/blood.jpg);
+}
+
+.memories-info {
+  background-color: #f2f2f2;
+  margin-top: 15px;
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.memories-info h1 {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.memories-info p {
+  width: 100%;
+  font-size: 13px;
+  color: #5a5a5a;
+}
+
+.memories-dates p {
+  border-bottom: 1px solid #5a5a5a;
+  font-size: 10px;
+  text-align: right;
+  width: fit-content;
+  float: right;
+}
+
+@media (max-width:500px) {
+    .memories h1 {
+        width: 100%;
+        font-size: 1.5em;
     }
-  }
-  
-  .img, .img2, .img3, .img4 {
-    height: 600px;
-    width: 400px;
-    background-image: url(../assets/ring.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  .img2 {
-    background-image: url(../assets/skin.jpg);
-    min-width: 500px;
-    background-position: bottom;
-    height: 350px;
-  }
-  .img3 {
-    background-image: url(../assets/gate.jpg);
-    width: 400px;
-  }
-  .img4 {
-    background-image: url(../assets/blood.jpg);
-  }
-  
-  
-  .memories-info {
-    background-color: #f2f2f2;
-    margin-top: 15px;
-    width: 100%;
-    display: inline-flex;
-    flex-direction: column;
-    gap: 10px;
-    justify-content: space-between;
-  }
-  
-  .memories-info h1 {
-    width: 100%;
-    font-size: 16px;
-    font-weight: 500;
-  }
-  
-  .memories-info p {
-    width: 100%;
-    font-size: 13px;
-    color: #5a5a5a;
-  }
-
-  .memories-dates p {
-    border-bottom: 1px solid #5a5a5a;
-    font-size: 10px;
-    text-align: right;
-    width: fit-content;
-    float: right;
-  }
-
-/* .memories-box {
-    display: flex;
-    margin-top: 30px;
-    flex-direction: column;
-    gap: 20px;
 }
-
-.memories-box div {
-    width: 100%;
-    border-radius: 20px;
-    box-sizing: border-box;
-}
-
-.memories-box div {
-    padding: 20px;
-    display: inline-flex;
-    justify-content: space-between;
-    gap: 20px;
-    align-items: center;
-}
-
-.memories-box h2 {
-    font-weight: 600;
-    font-size: 17px;
-}
-
-.memories-box p {
-    margin-top: 40px;
-    font-size: 13px;
-}
-
-.memories-box .memories-image {
-    width: 20%;
-    height: 200px;
-    background-image: url(../assets/1730920766917.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 20px;
-} */
