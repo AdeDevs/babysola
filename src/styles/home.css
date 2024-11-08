@@ -95,6 +95,7 @@ h3:hover {
       margin: 10px 0;
     }
     .landing .bg {
-      height: 70vh;
+      background-image: url(../assets/mob-bg.jpg);
+      height: 80vh;
     }
 }

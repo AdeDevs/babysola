@@ -4,6 +4,7 @@ import './styles/reset.css'
 import './styles/index.css'
 import './styles/home.css'
 import './styles/memories.css'
+import './styles/message.css'
 import App from './App.jsx'
 import { BrowserRouter } from 'react-router-dom'
 

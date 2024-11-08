@@ -30,6 +30,7 @@
   overflow-x: scroll;
   width: 100%;
   gap: 20px;
+  box-sizing: border-box;
   scrollbar-width: none;
   &::-webkit-scrollbar {
     display: none;
@@ -39,12 +40,19 @@
 .img,
 .img2,
 .img3,
-.img4 {
-  height: 600px;
+.img4,
+.img5, 
+.img6,
+.img7,
+.img8,
+.img9,
+.img10 {
+  height: 650px;
   width: 400px;
   background-image: url(../assets/ring.jpg);
   background-position: center;
   background-size: cover;
+  box-sizing: border-box;
   background-repeat: no-repeat;
 }
 .img2 {
@@ -60,6 +68,24 @@
 .img4 {
   background-image: url(../assets/blood.jpg);
 }
+.img5 {
+  background-image: url(../assets/bg.jpg);
+}
+.img6 {
+  background-image: url(../assets/bra.jpg);
+}
+.img7 {
+  background-image: url(../assets/cute.jpg);
+}
+.img8 {
+  background-image: url(../assets/ijebu.jpg);
+}
+.img9 {
+  background-image: url(../assets/january.gif);
+}
+.img10 {
+  background-image: url(../assets/walking.gif);
+}
 
 .memories-info {
   background-color: #f2f2f2;
@@ -67,6 +93,7 @@
   width: 100%;
   display: inline-flex;
   flex-direction: column;
+  box-sizing: border-box;
   gap: 10px;
   justify-content: space-between;
 }
@@ -77,7 +104,14 @@
   font-weight: 500;
 }
 
+.memories span {
+  color: #000;
+  text-decoration: underline;
+  font-size: 11px;
+}
+
 .memories-info p {
+  text-transform: lowercase;
   width: 100%;
   font-size: 13px;
   color: #5a5a5a;
@@ -96,4 +130,31 @@
         width: 100%;
         font-size: 1.5em;
     }
+    .img,
+.img2,
+.img3,
+.img4,
+.img5, 
+.img6,
+.img7,
+.img8,
+.img9,
+.img10 {
+  width: 90vw;
+  height: 400px;
+}
+.img {
+  height: 300px;
+  width: 80vw;
+}
+.img2 {
+  min-width: 90vw;
+  height: 300px;
+}
+}
+
+@media (max-width:450px) {
+  .img8 {
+    background-position: bottom;
+  }
 }

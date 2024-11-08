@@ -12,12 +12,11 @@ function NavBar() {
     return (
         <nav>
             <div>
-                <NavLink to="/"> <button> happy birthday </button> </NavLink>
-                <button className="uk">babysola</button>
+                <NavLink to="/"> <button> happy birthday babysola</button> </NavLink>
             </div>
             <div className="about">
                 <NavLink to="/memories"> <button> memories </button> </NavLink>
-                <NavLink to=""> <button className="special"> media </button> </NavLink>
+                <NavLink to="/message"> <button className="special"> message </button> </NavLink>
             </div>
             <span className="toggle-menu"><ion-icon name="menu-outline" onClick={toggleCart} /></span>
             {isMenuOpen && (
@@ -30,7 +29,7 @@ function NavBar() {
         <span className="toggle-menu"> <ion-icon name="close-outline" onClick={toggleCart} /> </span>
         <ul>
             <NavLink onClick={toggleCart} to="/memories"> <li> memories </li> </NavLink> 
-            <NavLink onClick={toggleCart} to="/media"> <li> media </li> </NavLink> 
+            <NavLink onClick={toggleCart} to="/message"> <li> message </li> </NavLink> 
         </ul>
       </div>
         </nav>

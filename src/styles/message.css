@@ -1,0 +1,13 @@
+.message {
+    width: 100%;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.message h1 {
+    font-size: 30px;
+    font-family: "Young Serif", sans-serif;
+    width: 50%;
+    text-transform: uppercase;
+}
