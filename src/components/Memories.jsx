@@ -174,6 +174,18 @@ function MemoriesPage() {
                 </section>
               </div>
             </section>
+            <section>
+              <div className="future"></div>
+              <div className="memories-info">
+                <h1>There's nothing here yet</h1>
+                <p>
+                  This is for the memories we're yet to make together
+                </p>
+                <section className="memories-dates">
+                  <p>9th of November, 2024 - Forever</p>
+                </section>
+              </div>
+            </section>
           </div>
         </div>
       </div>

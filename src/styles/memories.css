@@ -87,6 +87,10 @@
   background-image: url(../assets/walking.gif);
 }
 
+.future {
+  width: 400px;
+}
+
 .memories-info {
   background-color: #f2f2f2;
   margin-top: 15px;
