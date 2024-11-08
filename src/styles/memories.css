@@ -48,7 +48,7 @@
 .img9,
 .img10 {
   height: 68vh;
-  width: 400px;
+  min-width: 60vw;
   background-image: url(../assets/ring.jpg);
   background-position: center;
   background-size: cover;
@@ -57,9 +57,9 @@
 }
 .img2 {
   background-image: url(../assets/skin.jpg);
-  min-width: 500px;
+  min-width: 80vw;
   background-position: bottom;
-  height: 350px;
+  height: 35vh;
 }
 .img3 {
   background-image: url(../assets/gate.jpg);
