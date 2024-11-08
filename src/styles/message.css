@@ -11,3 +11,10 @@
     width: 50%;
     text-transform: uppercase;
 }
+
+@media (max-width:500px) {
+    .message h1 {
+        width: 100%;
+        font-size: 25px;
+    }
+}
