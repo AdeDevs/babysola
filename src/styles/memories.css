@@ -48,7 +48,7 @@
 .img9,
 .img10 {
   height: 68vh;
-  min-width: 60vw;
+  min-width: 400px;
   background-image: url(../assets/ring.jpg);
   background-position: center;
   background-size: cover;
@@ -57,7 +57,7 @@
 }
 .img2 {
   background-image: url(../assets/skin.jpg);
-  min-width: 80vw;
+  min-width: 500px;
   background-position: bottom;
   height: 35vh;
 }
@@ -140,10 +140,11 @@
 .img8,
 .img9,
 .img10 {
-  width: 90vw;
+  min-width: 90vw;
   height: 70vh;
 }
 .img2 {
   min-width: 90vw;
+  height: 300px;
 }
 }
