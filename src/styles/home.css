@@ -42,6 +42,7 @@
     background-image: url(../assets/bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    border-radius: 7px;
     background-size: cover;
 }
 
